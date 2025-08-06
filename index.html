@@ -68,6 +68,11 @@
     <symbol id="icon-check" viewBox="0 0 24 24">
       <use xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-check" />
     </symbol>
+    
+    <!-- Subscribe icon -->
+    <symbol id="icon-subscribe" viewBox="0 0 38 32">
+      <use xlink:href="./images/SVG-sprite/symbol-defs-subscribe.svg#icon-icon_subscribe" />
+    </symbol>
   </svg>
 
     <!-- Logo: Raleway font, uppercase, renk ayarlandı -->
@@ -387,6 +392,20 @@
         </li>
       </ul>
     </div>
+    <div class="footer-subscribe">
+      <h4 class="footer-subscribe-title">Subscribe</h4>
+      <form class="subscribe-form">
+        <div class="subscribe-input-container">
+          <input type="email" name="subscribe-email" placeholder="E-mail" class="subscribe-input" />
+          <button type="submit" class="subscribe-btn">
+            <span>Subscribe</span>
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="#icon-subscribe"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
 </footer>
 
@@ -410,7 +429,7 @@
             <svg class="form-icon">
               <use href="#icon-user"></use>
             </svg>
-            <input type="text" name="user-name" placeholder="Your name" required />
+            <input type="text" name="user-name" required />
           </div>
         </label>
       </div>
@@ -422,7 +441,7 @@
             <svg class="form-icon">
               <use href="#icon-phone"></use>
             </svg>
-            <input type="tel" name="user-phone" placeholder="Phone number" required />
+            <input type="tel" name="user-phone" required />
           </div>
         </label>
       </div>
@@ -434,7 +453,7 @@
             <svg class="form-icon">
               <use href="#icon-email"></use>
             </svg>
-            <input type="email" name="user-email" placeholder="E-mail" required />
+            <input type="email" name="user-email" required />
           </div>
         </label>
       </div>
